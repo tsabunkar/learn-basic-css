@@ -1,0 +1,113 @@
+* {
+	/* this styling will be applyed to everything (all elements in the page) */
+	/* margin: 0; */
+	/* padding: 0; */
+	/* We are reseting the default padding and margin of the div, h1 all the html elements to 0 */
+}
+
+body {
+	background-color: cornsilk;
+	color: brown;
+	font-family: Arial, Helvetica, sans-serif;
+	/* first arial font family will be loaded if not found then helvetica , if even that is not found
+    then font-family would be sans-serif */
+	font-size: 12px;
+	font-weight: bold;
+	/* font-weight: 1000; */
+
+	/* !Same as above font-family, font-size, font-weight*/
+	/* font: bold 12px Arial, Helvetica, sans-serif; */
+
+	/* *space between the line */
+	line-height: 1.6em;
+	margin: 0;
+	/* Note by default heading does not have the margin */
+}
+
+a {
+	/* removing the text-decoration (i.e-underscore) */
+	text-decoration: none;
+	/* color is the text color */
+	color: black;
+}
+
+/* anchor tag has different state -> :hover, :active */
+a:hover {
+	color: red;
+}
+
+a:active {
+	color: green;
+}
+
+/* a:visited {
+	color: teal;
+} */
+
+.container {
+	/* instead of specifiying the specfic value in px, we wont get RWD, So need to mention in % */
+	width: 80%;
+	/* margin auto will set the same margin on all the side */
+	margin: auto;
+}
+
+.box-1 {
+	background-color: #333333;
+	color: #ffffff;
+	border-right: 5px red solid;
+	border-left: 5px green solid;
+	border-top: 5px yellow solid;
+	border-bottom: 5px pink solid;
+
+	/* if all the border values are same : */
+	/* border: 5px red solid; */
+	border-width: 10px;
+	border-bottom-width: 3px;
+	border-top-style: dashed;
+
+	padding: 20px;
+	margin-top: 20px;
+}
+
+.box-1 h1 {
+	/* this will styling will target h1 element which is inside the box-1 class-> Nested Styling */
+	font-family: Tahoma;
+	font-weight: 800;
+	font-style: italic;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	/* should be in m unit */
+	word-spacing: 0.5em;
+}
+
+.box-2 {
+	border: 3px dotted violet;
+	padding: 20px;
+	margin: 20px 0;
+}
+
+.categories {
+	border: 3px grey solid;
+	padding: 10px;
+	/* border box will curved */
+	border-radius: 15px;
+}
+
+.categories h2 {
+	text-align: center;
+}
+
+.categories ul {
+	padding: 0;
+	padding-left: 20px;
+	/* list-style: square; */
+	/* ul can be square, disc, etc */
+	/* list-style: disc; */
+}
+
+.categories li {
+	padding-bottom: 8px;
+	border-bottom: dotted 1px #333333;
+	list-style-image: url('../../images/check.png');
+}
