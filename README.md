@@ -1,3 +1,18 @@
+HTML is used to structure of the page.
+CSS is used for styling of the page.
+
+---
+
+CSS was introduced : 1996
+CSS-1 : 1996
+CSS-2 : 1998
+CSS-3 : In Still in Development (Dont say u know CSS-3)
+Note : There will never be CSS-4 version
+bcoz: Rather than focusing on different version of the CSS, CSS Team decided to split up the
+independent modules. For ex- modules which focus on animation, modules which focus on color, etc..
+
+---
+
 3 Methods for adding CSS:
 
 1)Inline CSS
